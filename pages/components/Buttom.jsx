@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { title } from "process";
 
 const Buttom = ({ title, link, bgcolor, fontcolor }) => {
   return (
