@@ -1,9 +1,12 @@
 import Link from "next/link";
+import { title } from "process";
 
-const Buttom = ({ title, bgcolor }) => {
+const Buttom = ({ title, link, bgcolor, fontcolor }) => {
   return (
-    <div className="w-[300px] my-5 py-3 m-auto bg-green text-white rounded-full">
-      <Link href="/">{title}</Link>
+    <div
+      className={`w-[300px] my-5 py-3 m-auto ${bgcolor} ${fontcolor} text-center rounded-xl shadow-md`}
+    >
+      <Link href={link}>{title}</Link>
     </div>
   );
 };

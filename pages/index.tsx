@@ -4,11 +4,11 @@ import Head from "next/head";
 import Image from "next/image";
 import logo from "./assets/nameLogo.png";
 import welcome from "./assets/welcome.png";
-import Buttom from "./components/Buttom";
+import LoginButtom from "./components/parts/LoginButtom";
 
 const Home: NextPage = () => {
   return (
-    <div className="w-screen h-screen bg-bgColor">
+    <div className="relative w-screen h-screen bg-bgColor">
       <Head>
         <title>recipebook</title>
         <link rel="icon" href="/favicon.ico" />
@@ -27,10 +27,7 @@ const Home: NextPage = () => {
         </p>
       </div>
 
-      <div className="mt-[200px] text-center">
-        <Buttom title="新規会員登録はこちら" bgcolor="" />
-        {/* <Buttom title="ログインする" /> */}
-      </div>
+      <LoginButtom />
     </div>
   );
 };

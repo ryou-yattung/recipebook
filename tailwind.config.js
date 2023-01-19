@@ -15,6 +15,7 @@ module.exports = {
       fontColor: "#635B52",
       iFontColor: "#635B52",
       white: "#FFFFFF",
+      black: "#131313",
     },
   },
   plugins: [],
