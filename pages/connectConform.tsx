@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Buttom from "./components/Buttom";
 import LoginTitle from "./components/LoginTitle";
 import Step03 from "./assets/step03.png";
 
