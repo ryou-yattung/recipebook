@@ -8,8 +8,6 @@ import Buttom from "./components/Buttom";
 import InputCpn from "./components/InputCpn";
 
 const account = () => {
-  const email = true;
-  const password = false;
   return (
     <div className="relative w-screen h-screen bg-bgColor">
       <LoginTitle title="アカウントを作成" />
@@ -19,8 +17,9 @@ const account = () => {
       </div>
 
       <div className="w-[300px] h-[200px] m-auto mt-10">
-        <InputCpn placeholder="メールアドレスを入力してください" logo={email} />
-        <InputCpn placeholder="パスワードを入力してください" logo={password} />
+        <InputCpn placeholder="名前を入力してください" logo={true} />
+        <InputCpn placeholder="メールアドレスを入力してください" logo={true} />
+        <InputCpn placeholder="パスワードを入力してください" logo={false} />
       </div>
 
       <div className="mt-20">

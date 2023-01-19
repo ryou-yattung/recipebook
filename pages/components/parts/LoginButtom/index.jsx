@@ -1,17 +1,17 @@
 import Buttom from "../../Buttom";
 
-const LoginButtom = () => {
+const LoginButtom = ({ title1, link1, title2, link2 }) => {
   return (
     <div className="absolute bottom-24 right-0 left-0 m-auto">
       <Buttom
-        title="新規会員登録はこちら"
-        link="/login"
+        title={title1}
+        link={link1}
         bgcolor="bg-green"
         fontcolor="text-white"
       />
       <Buttom
-        title="ログインする"
-        link="/account"
+        title={title2}
+        link={link2}
         bgcolor="bg-white"
         fontcolor="text-fontcolor"
       />

@@ -27,7 +27,12 @@ const Home: NextPage = () => {
         </p>
       </div>
 
-      <LoginButtom />
+      <LoginButtom
+        title1="新規会員登録はこちら"
+        link1="/login"
+        title2="ログインする"
+        link2="/"
+      />
     </div>
   );
 };
