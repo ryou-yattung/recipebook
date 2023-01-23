@@ -6,11 +6,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        resBg: "url('../public/resBg.png')",
-      },
-    },
+    extend: {},
     colors: {
       bgColor: "#FBF0E0",
       green: "#3E8C67",

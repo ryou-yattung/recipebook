@@ -8,6 +8,7 @@ import Record from "./assets/record.png";
 import Bag from "./assets/bag.png";
 import Gift from "./assets/gift.png";
 import Link from "next/link";
+import ResBg from "./assets/resBg.png";
 
 const homepage = () => {
   return (
@@ -26,14 +27,16 @@ const homepage = () => {
 
         <div>
           <section className="w-5/6 my-8 mx-auto flex justify-between items-center">
-            <div className="w-[160px] h-[120px]  bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center text-white">
-              <h3 className="text-md mb-1">今月総支出</h3>
-              <p className="text-2xl">¥ 150000</p>
+            <div className="w-[160px] h-[120px] relative flex flex-col justify-center items-center text-white">
+              <h3 className="text-md mb-1 z-50">今月総支出</h3>
+              <p className="text-2xl z-50">¥ 150000</p>
+              <Image src={ResBg} alt="ResBg" className="absolute z-10" />
             </div>
 
-            <div className="w-[160px] h-[120px]  bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center text-white">
-              <h3 className="text-md mb-1">レシート枚数</h3>
-              <p className="text-2xl">21枚</p>
+            <div className="w-[160px] h-[120px] relative flex flex-col justify-center items-center text-white">
+              <h3 className="text-md mb-1 z-50">レシート枚数</h3>
+              <p className="text-2xl z-50">21枚</p>
+              <Image src={ResBg} alt="ResBg" className="absolute z-10" />
             </div>
           </section>
 
@@ -66,7 +69,7 @@ const homepage = () => {
         </div>
       </div>
 
-      <HpFooterPart homeLink="homepage" homeColor="greenDark3" />
+      <HpFooterPart homeColor={true} />
     </div>
   );
 };
