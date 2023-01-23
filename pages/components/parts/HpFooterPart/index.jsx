@@ -16,7 +16,7 @@ const HpFooterPart = ({ homeLink, homeColor }) => {
       </div>
 
       <div className="relative z-20 w-full h-full flex items-center justify-around text-[12px] font-bold">
-        <Link href={homeLink} className="text-center">
+        <Link href={homeLink ?? ""} className="text-center">
           <HomeLogo className={`fill-${homeColor} m-auto mb-2`} />
           <p className={`text-${homeColor}`}>ホーム</p>
         </Link>
