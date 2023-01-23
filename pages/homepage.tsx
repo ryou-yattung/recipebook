@@ -51,7 +51,7 @@ const homepage = () => {
 
           <section className="w-[360px] h-[130px] flex items-center justify-center gap-10 bg-greenDark2 rounded-lg m-auto text-[12px]">
             {/* <RecipeMenu /> */}
-            <Link href="/" className="flex flex-col items-center">
+            <Link href="recipe" className="flex flex-col items-center">
               <Image src={Record} alt="Record" />
               <p className="mt-2 text-white">レシート履歴</p>
             </Link>
@@ -69,7 +69,7 @@ const homepage = () => {
         </div>
       </div>
 
-      <HpFooterPart homeColor={true} />
+      <HpFooterPart homeColor={true} recipeColor={false} />
     </div>
   );
 };
