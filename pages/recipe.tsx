@@ -4,7 +4,7 @@ import HpFooterPart from "./components/parts/HpFooterPart";
 
 const recipe = () => {
   return (
-    <div className="w-screen h-screen relative z-10 mt-[105px] bg-bgColor">
+    <div className="w-screen h-screen relative z-10 py-[105px] bg-bgColor">
       <HpHeader title="レシートを集まる" />
 
       <section>
@@ -24,7 +24,7 @@ const recipe = () => {
         </div>
       </section>
 
-      <HpFooterPart homeColor={false} recipeColor={true} />
+      <HpFooterPart homeColor={false} recipeColor={true} couponCoulor={false} />
     </div>
   );
 };

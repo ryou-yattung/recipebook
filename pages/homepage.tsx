@@ -12,7 +12,7 @@ import ResBg from "./assets/resBg.png";
 
 const homepage = () => {
   return (
-    <div className="w-screen h-screen relative z-10 mt-[105px] bg-bgColor">
+    <div className="w-screen h-screen relative z-10 py-[105px] bg-bgColor">
       <HpHeader title="ホーム" />
 
       {/* code */}
@@ -61,7 +61,7 @@ const homepage = () => {
               <p className="mt-2 text-white">獲得した特典</p>
             </Link>
 
-            <Link href="/" className="flex flex-col items-center">
+            <Link href="couponBox" className="flex flex-col items-center">
               <Image src={Bag} alt="Record" />
               <p className="mt-2 text-white">クーポンかご</p>
             </Link>
@@ -69,7 +69,7 @@ const homepage = () => {
         </div>
       </div>
 
-      <HpFooterPart homeColor={true} recipeColor={false} />
+      <HpFooterPart homeColor={true} recipeColor={false} couponCoulor={false} />
     </div>
   );
 };
