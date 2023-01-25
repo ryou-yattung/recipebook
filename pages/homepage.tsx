@@ -41,7 +41,7 @@ const homepage = () => {
           </section>
 
           <section className="mb-8">
-            <div className="mb-8 flex justify-between text-fontColor">
+            <div className="mb-8 flex justify-between text-fontColor font-bold">
               <h2 className="ml-5">今持ってるレシート</h2>
               <p className="mr-5">もっと見る</p>
             </div>
@@ -69,7 +69,12 @@ const homepage = () => {
         </div>
       </div>
 
-      <HpFooterPart homeColor={true} recipeColor={false} couponCoulor={false} />
+      <HpFooterPart
+        homeColor={true}
+        recipeColor={false}
+        couponCoulor={false}
+        bookCoulor={false}
+      />
     </div>
   );
 };

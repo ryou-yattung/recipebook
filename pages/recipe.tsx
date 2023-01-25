@@ -24,7 +24,12 @@ const recipe = () => {
         </div>
       </section>
 
-      <HpFooterPart homeColor={false} recipeColor={true} couponCoulor={false} />
+      <HpFooterPart
+        homeColor={false}
+        recipeColor={true}
+        couponCoulor={false}
+        bookCoulor={false}
+      />
     </div>
   );
 };

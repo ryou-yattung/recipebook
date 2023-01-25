@@ -8,7 +8,7 @@ import You from "./footerLogo/You";
 import footerBg from "./footerLogo/footerBg.png";
 import Link from "next/link";
 
-const HpFooterPart = ({ homeColor, recipeColor, couponCoulor }) => {
+const HpFooterPart = ({ homeColor, recipeColor, couponCoulor, bookCoulor }) => {
   return (
     <footer className="w-screen h-[80px] fixed bottom-0">
       <div className="w-full absolute z-10 bottom-0">
@@ -40,15 +40,15 @@ const HpFooterPart = ({ homeColor, recipeColor, couponCoulor }) => {
           </p>
         </Link>
 
-        <Link href="/">
+        <Link href="book">
           <BookLogo
             className={
-              couponCoulor
+              bookCoulor
                 ? `fill-greenDark3 m-auto mb-2`
                 : `fill-white m-auto mb-2`
             }
           />
-          <p className={couponCoulor ? `text-greenDark3` : `text-white`}>
+          <p className={bookCoulor ? `text-greenDark3` : `text-white`}>
             家計簿
           </p>
         </Link>
