@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Bell from "../../Bell";
 
 const HpHeader = ({ title }) => {
@@ -8,7 +9,9 @@ const HpHeader = ({ title }) => {
         {title}
       </h1>
 
-      <Bell className="absolute right-8 top-10" />
+      <Link href="notification">
+        <Bell className="absolute right-8 top-10" />
+      </Link>
     </div>
   );
 };

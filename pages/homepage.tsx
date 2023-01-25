@@ -56,7 +56,7 @@ const homepage = () => {
               <p className="mt-2 text-white">レシート履歴</p>
             </Link>
 
-            <Link href="/" className="flex flex-col items-center">
+            <Link href="couponBox" className="flex flex-col items-center">
               <Image src={Gift} alt="Record" />
               <p className="mt-2 text-white">獲得した特典</p>
             </Link>
@@ -74,6 +74,7 @@ const homepage = () => {
         recipeColor={false}
         couponCoulor={false}
         bookCoulor={false}
+        youCoulor={false}
       />
     </div>
   );
