@@ -29,6 +29,7 @@ const recipe = () => {
         recipeColor={true}
         couponCoulor={false}
         bookCoulor={false}
+        youCoulor={false}
       />
     </div>
   );

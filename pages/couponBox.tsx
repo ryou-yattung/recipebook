@@ -15,6 +15,7 @@ const couponBox = () => {
         recipeColor={true}
         couponCoulor={false}
         bookCoulor={false}
+        youCoulor={false}
       />
     </div>
   );
