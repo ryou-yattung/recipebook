@@ -22,7 +22,7 @@ const account = () => {
         <InputCpn placeholder="パスワードを入力してください" logo={false} />
       </div>
 
-      <div className="mt-20">
+      <div className="mt-10">
         <Buttom
           title="次に"
           link="/connect"

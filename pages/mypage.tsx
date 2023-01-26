@@ -61,7 +61,7 @@ const mypage = () => {
       </section>
 
       <section>
-        <h2 className="text-xl font-bold text-fontColor text-center border-b-2 border-greenDark2 pb-2">
+        <h2 className="text-xl font-bold text-fontColor text-center border-b-2 border-greenDark2 pb-2 mt-10">
           サポート
         </h2>
 
