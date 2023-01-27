@@ -9,7 +9,7 @@ import InputCpn from "./components/InputCpn";
 
 const account = () => {
   return (
-    <div className="relative w-screen h-screen bg-bgColor">
+    <div className="relative w-screen h-auto py-20  bg-bgColor">
       <LoginTitle title="アカウントを作成" />
 
       <div className="w-52 mx-auto my-5">

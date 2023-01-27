@@ -3,7 +3,6 @@ import Image from "next/image";
 import HpHeader from "./components/parts/HpHeader";
 import HpFooterPart from "./components/parts/HpFooterPart";
 import qrcode from "./assets/qrCode.png";
-// import RecipeMenu from "./components/RecipeMenu";
 import Record from "./assets/record.png";
 import Bag from "./assets/bag.png";
 import Gift from "./assets/gift.png";

@@ -8,7 +8,7 @@ import CheckBoxList from "./components/CheckBoxList";
 
 const connectConform = () => {
   return (
-    <div className="w-screen h-screen bg-bgColor">
+    <div className="w-screen h-auto py-20 bg-bgColor">
       <LoginTitle title="電子決済と連携" />
 
       <div className="w-52 mx-auto my-5">

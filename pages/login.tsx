@@ -30,7 +30,7 @@ const login = () => {
         fontcolor="text-white"
       />
 
-      <div className="mt-32">
+      <div className="mt-20">
         <Or />
       </div>
 

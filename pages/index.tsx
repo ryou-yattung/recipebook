@@ -8,13 +8,13 @@ import LoginButtom from "./components/parts/LoginButtom";
 
 const Home: NextPage = () => {
   return (
-    <div className="relative w-screen h-screen bg-bgColor">
+    <div className="w-screen h-screen bg-bgColor">
       <Head>
         <title>recipebook</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="pt-[200px]">
+      <div className="pt-[150px]">
         <Image src={welcome} alt="logo" className="h-10 w-auto mx-auto my-2" />
         <Image src={logo} alt="logo" className="h-16 w-auto mx-auto" />
       </div>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
         link1="/account"
         title2="ログインする"
         link2="/login"
-        height="mt-60"
+        height="mt-40"
       />
     </div>
   );

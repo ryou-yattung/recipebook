@@ -6,7 +6,7 @@ import mypageBg from "../assets/mypageBg.png";
 
 const MypagePro = () => {
   return (
-    <section className="relative z-10 w-screen h-36">
+    <section className="relative w-screen h-36">
       <Image
         src={mypageBg}
         alt="mypageBg"
@@ -22,7 +22,7 @@ const MypagePro = () => {
           </div>
         </div>
 
-        <div className="">
+        <div>
           <Image src={mypageLv} alt="mypageLv" />
         </div>
       </div>
