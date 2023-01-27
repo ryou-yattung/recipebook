@@ -11,7 +11,7 @@ import ResBg from "./assets/resBg.png";
 
 const homepage = () => {
   return (
-    <div className="w-screen h-screen relative z-10 py-[105px] bg-bgColor">
+    <div className="w-screen h-auto relative z-10 py-[80px] bg-bgColor">
       <HpHeader title="ホーム" />
 
       {/* code */}
@@ -45,7 +45,11 @@ const homepage = () => {
               <p className="mr-5">もっと見る</p>
             </div>
 
-            <div className="w-20 h-20 ml-5 rounded-full bg-yellow"></div>
+            <div className="flex">
+              <div className="w-20 h-20 ml-5 rounded-full bg-yellow"></div>
+              <div className="w-20 h-20 ml-5 rounded-full bg-yellow"></div>
+              <div className="w-20 h-20 ml-5 rounded-full bg-yellow"></div>
+            </div>
           </section>
 
           <section className="w-[360px] h-[130px] flex items-center justify-center gap-10 bg-greenDark2 rounded-lg m-auto text-[12px]">

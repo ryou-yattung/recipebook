@@ -15,7 +15,7 @@ const book = () => {
     { id: 6, mon: "交通費", num: "6%", name: "￥9000" },
   ];
   return (
-    <div className="w-screen h-screen relative z-10 py-[105px] bg-bgColor">
+    <div className="w-screen h-screen relative z-10 py-[80px] bg-bgColor">
       <HpHeader title="家計簿" />
 
       <section className="w-full h-14 bg-bgColor2 flex items-center justify-between text-iFontColor">
@@ -23,9 +23,9 @@ const book = () => {
         <div className="mr-5">合計　¥ 150000</div>
       </section>
 
-      <Image src={money} alt="money" className="mx-auto my-8" />
+      <Image src={money} alt="money" className="w-64 mx-auto my-8" />
 
-      <section className="w-full h-auto bg-greenDark2 px-12 pb-10">
+      <section className="w-full h-auto bg-greenDark2 px-12 pb-40">
         {moneyName.map((item) => (
           <MoneyList
             key={item.id}

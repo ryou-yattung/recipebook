@@ -23,7 +23,7 @@ const mypage = () => {
     { id: 3, listName: "退会" },
   ];
   return (
-    <div className="w-screen h-auto relative py-[105px] bg-bgColor">
+    <div className="w-screen h-auto relative z-50 py-[80px] bg-bgColor">
       <HpHeader title="マイページ" />
 
       <MypagePro />
@@ -51,7 +51,7 @@ const mypage = () => {
       </section>
 
       <section>
-        <h2 className="text-xl font-bold text-fontColor text-center border-b-2 border-greenDark2 pb-2">
+        <h2 className="text-xl font-bold text-fontColor text-center border-b-2 border-greenDark2 pb-5">
           設定
         </h2>
 
@@ -60,8 +60,8 @@ const mypage = () => {
         ))}
       </section>
 
-      <section>
-        <h2 className="text-xl font-bold text-fontColor text-center border-b-2 border-greenDark2 pb-2 mt-10">
+      <section className="pb-10">
+        <h2 className="text-xl font-bold text-fontColor text-center border-b-2 border-greenDark2 pb-5 mt-10">
           サポート
         </h2>
 

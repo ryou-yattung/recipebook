@@ -10,7 +10,7 @@ import couponPng from "./assets/couponPng.png";
 
 const coupon = () => {
   return (
-    <div className="w-screen h-screen relative z-10 py-[105px] bg-bgColor">
+    <div className="w-screen h-auto relative z-10 py-[80px] bg-bgColor">
       <HpHeader title="クーポンかご" />
 
       <Image src={bgCover} alt="bgCover" className="w-full h-auto" />
