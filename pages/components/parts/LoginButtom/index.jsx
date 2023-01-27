@@ -1,8 +1,8 @@
 import Buttom from "../../Buttom";
 
-const LoginButtom = ({ title1, link1, title2, link2 }) => {
+const LoginButtom = ({ title1, link1, title2, link2, height }) => {
   return (
-    <div className="absolute bottom-24 right-0 left-0 m-auto">
+    <div className={`${height}`}>
       <Buttom
         title={title1}
         link={link1}

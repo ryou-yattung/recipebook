@@ -3,7 +3,7 @@ import MideaButtom from "../../MideaButtom";
 
 const MideaButtomPart = () => {
   return (
-    <div className="absolute bottom-24 right-0 left-0 m-auto">
+    <div>
       <MideaButtom
         title="Googleでログインする"
         link="/"

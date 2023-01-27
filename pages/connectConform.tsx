@@ -41,6 +41,7 @@ const connectConform = () => {
         link1="/homepage"
         title2="同意しない"
         link2="/connect"
+        height="mt-20"
       />
     </div>
   );

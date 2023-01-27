@@ -32,6 +32,7 @@ const Home: NextPage = () => {
         link1="/account"
         title2="ログインする"
         link2="/login"
+        height="mt-60"
       />
     </div>
   );
