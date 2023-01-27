@@ -34,7 +34,7 @@ const account = () => {
 
       <MideaButtomPart />
 
-      <div className="w-5/6 absolute bottom-12 right-0 left-0 m-auto">
+      <div className="w-5/6 m-auto">
         <p className="text-[10px] text-center text-fontColor">
           登録すると利用規約、プライバシーポリシー、
           <br />
